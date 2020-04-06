@@ -6,13 +6,13 @@ exports.handler = async (event) => {
         let data = await sns.subscribe({
             TopicArn: "arn:aws:sns:us-east-1:318300609668:TestSNS",
             Protocol: "https",
-            Endpoint: "https://052p9kjn18.execute-api.us-east-1.amazonaws.com/test/qa/indu"
+            Endpoint: "https://052p9kjn18.execute-api.us-east-1.amazonaws.com/test1/qa/indu"
         }).promise();
-console.log("Daaata")
-console.log(data)
+        console.log("Daaata")
+        console.log(data)
     } catch (err) {
         console.log("errrr")
-console.log(err)
+        console.log(err)
         // error handling goes here
     };
 

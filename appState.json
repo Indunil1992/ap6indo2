@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "ap6indo2.js",
         "cursor": {
-          "lineNumber": 11,
-          "column": 18
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs12.x",
@@ -80,8 +80,8 @@
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 1,
-          "stageName": "test",
-          "stageDeploymentId": "xynhi3",
+          "stageName": "test1",
+          "stageDeploymentId": "f9rcsr",
           "mode": 1
         }
       },
@@ -97,7 +97,7 @@
           "subscriptions": [
             {
               "type": "https",
-              "endpoint": "https://052p9kjn18.execute-api.us-east-1.amazonaws.com/test/qa/indu"
+              "endpoint": "https://052p9kjn18.execute-api.us-east-1.amazonaws.com/test1/qa/indu"
             }
           ]
         }
@@ -137,7 +137,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586165447215
+    "lastSave": 1586166161737
   },
   "VCS_STATE": {
     "provider": "GitHub",
