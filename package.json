@@ -2,5 +2,7 @@
   "name": "ap6indo2",
   "version": "1.0.0",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "aws-sdk": "2.644.0"
+  }
 }

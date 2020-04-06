@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "ap6indo2.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 4
+          "lineNumber": 11,
+          "column": 18
         },
         "config": {
           "runtime": "nodejs12.x",
@@ -84,6 +84,23 @@
           "stageDeploymentId": "xynhi3",
           "mode": 1
         }
+      },
+      "snsusEast1TestSNS": {
+        "name": "snsusEast1TestSNS",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "TestSNS",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
+          "topicRegion": "us-east-1",
+          "snsType": 0,
+          "subscriptions": [
+            {
+              "type": "https",
+              "endpoint": "https://052p9kjn18.execute-api.us-east-1.amazonaws.com/test/qa/indu"
+            }
+          ]
+        }
       }
     },
     "customTemplate": {
@@ -101,7 +118,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -112,7 +137,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586164915787
+    "lastSave": 1586165447215
   },
   "VCS_STATE": {
     "provider": "GitHub",
