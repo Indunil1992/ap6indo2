@@ -1,0 +1,124 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4e5b0a03-444c-448c-ae89-f87170d592f0": {
+        "id": "4e5b0a03-444c-448c-ae89-f87170d592f0",
+        "parent": null,
+        "name": "ap6indo2.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ap6indo2.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 4
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ap6indo2"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameqainduany",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "97677411-0a17-480c-8d8a-0caff5de9213": {
+            "id": "97677411-0a17-480c-8d8a-0caff5de9213",
+            "name": "Test event",
+            "functionId": "4e5b0a03-444c-448c-ae89-f87170d592f0",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        },
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Deny",
+              "Resource": "*",
+              "Action": [
+                "*"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "openFiles": [
+      "4e5b0a03-444c-448c-ae89-f87170d592f0"
+    ],
+    "currentFileId": "4e5b0a03-444c-448c-ae89-f87170d592f0",
+    "resources": {
+      "apigusEast1sachithraAPInameqainduany": {
+        "name": "apigusEast1sachithraAPInameqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "xynhi3",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ap6indo2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586164915787
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ap6indo2",
+      "url": "https://github.com/Indunil1992/ap6indo2"
+    }
+  }
+}
